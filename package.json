@@ -12,6 +12,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "element-ui": "^2.4.11",
     "iview": "^3.2.2",
     "koa": "^2.6.2",
@@ -20,6 +21,7 @@
     "koa-logger": "^3.2.0",
     "koa-router": "^7.4.0",
     "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
     "koa2-history-api-fallback": "0.0.5",
     "leaflet": "^1.4.0",
     "stylus": "^0.54.5",
